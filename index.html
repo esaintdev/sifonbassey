@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifon | UI/UX Design & Development</title>
+
+    <!-- Design Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Animation Library -->
+    <!-- Animation Library -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">Sifon</a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="ri-moon-fill"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="hero-label reveal">UI/UX Designer & Developer</span>
+                    <h1 class="reveal">Creating <span class="gradient-text">Digiital Experiences</span> That Matters.
+                    </h1>
+                    <p class="reveal">I combine creativity, technical skills, and organization to deliver impactful
+                        digital solutions. Currently shaping future designers at Mita School.</p>
+
+                    <div class="hero-cta reveal">
+                        <a href="#contact" class="btn btn-primary">Start a Project <i
+                                class="ri-arrow-right-up-line"></i></a>
+                        <a href="#work" class="btn btn-secondary">View Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="hero-image reveal">
+                    <div class="hero-card">
+                        <img src="images/sifon.png" alt="Sifon Profile"
+                            style="object-fit: contain; background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid - About & Skills -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Me</span>
+                <h2>Passionate About Design & Tech</h2>
+                <p>Turning complex problems into simple, beautiful solutions.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Main Bio -->
+                <div class="bento-item bento-item-large reveal">
+                    <div class="card-icon"><i class="ri-user-smile-line"></i></div>
+                    <h3>Who I Am</h3>
+                    <p>I am a passionate UI/UX Designer and Web Developer currently working at Mita School. My role is
+                        multifaceted—I serve as a UI/UX Design Tutor, Administrative Officer, and provide basic
+                        bookkeeping support. I truly enjoy turning ideas into meaningful digital products that solve
+                        real problems.</p>
+                </div>
+
+                <!-- Stats -->
+                <div class="bento-item bento-item-medium reveal"
+                    style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                    <h2 class="gradient-text" style="font-size: 4rem; margin-bottom: 0;">3+</h2>
+                    <p>Years Experience</p>
+                </div>
+
+                <!-- Skill 1 -->
+                <div class="bento-item bento-item-small reveal">
+                    <div class="card-icon"><i class="ri-layout-3-line"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Prototyping, Strategy</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="bento-item bento-item-small reveal">
+                    <div class="card-icon"><i class="ri-code-s-slash-line"></i></div>
+                    <h3>Development</h3>
+                    <p>HTML, CSS, JS, React</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="bento-item bento-item-small reveal">
+                    <div class="card-icon"><i class="ri-presentation-line"></i></div>
+                    <h3>Mentorship</h3>
+                    <p>Training & Workshops</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section" style="background: var(--color-surface);">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Journey</span>
+                <h2>Experience & Growth</h2>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-item-medium reveal">
+                    <span style="font-size: 0.875rem; color: var(--color-primary); font-weight: 600;">Present</span>
+                    <h3>Mita School</h3>
+                    <p>UI/UX Design Tutor & Admin Officer</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Training aspiring designers, handling administrative
+                        coordination, documentation, and scheduling.</p>
+                </div>
+
+                <div class="bento-item bento-item-medium reveal">
+                    <span style="font-size: 0.875rem; color: var(--color-primary); font-weight: 600;">2023 - 2024</span>
+                    <h3>Freelance Designer</h3>
+                    <p>UI/UX Designer & Consultant</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Worked with various clients to design user-friendly
+                        interfaces and solve complex UX problems.</p>
+                </div>
+
+                <div class="bento-item bento-item-medium reveal">
+                    <span style="font-size: 0.875rem; color: var(--color-primary); font-weight: 600;">2022 - 2023</span>
+                    <h3>Web Developer</h3>
+                    <p>Start of Career</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Started with a curiosity for digital products,
+                        learning HTML, CSS, and JS to build responsive websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Work -->
+    <section id="work" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Services</span>
+                <h2>What I Deliver</h2>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-item-medium reveal card">
+                    <div class="card-icon"><i class="ri-macbook-line"></i></div>
+                    <h3>Web Design</h3>
+                    <p>Modern, responsive, and accessible websites tailored to your brand.</p>
+                </div>
+                <div class="bento-item bento-item-medium reveal card">
+                    <div class="card-icon"><i class="ri-smartphone-line"></i></div>
+                    <h3>App Design</h3>
+                    <p>Intuitive mobile app interfaces that users love to engage with.</p>
+                </div>
+                <div class="bento-item bento-item-medium reveal card">
+                    <div class="card-icon"><i class="ri-book-open-line"></i></div>
+                    <h3>Design Training</h3>
+                    <p>Personalized tutoring for aspiring UI/UX designers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="bento-item bento-item-large reveal"
+                style="grid-column: span 12; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 4rem 2rem;">
+                <h2 style="font-size: 3rem; margin-bottom: 1rem;">Ready to start basic?</h2>
+                <h2 class="gradient-text" style="font-size: 3rem; margin-bottom: 2rem;">Let's build something amazing.
+                </h2>
+                <a href="mailto:sifonbassey78@gmail.com" class="btn btn-primary"
+                    style="font-size: 1.25rem; padding: 1.5rem 3rem;">
+                    Get in Touch <i class="ri-mail-send-line"></i>
+                </a>
+
+                <div style="display: flex; gap: 2rem; margin-top: 3rem;">
+                    <a href="https://x.com/bassey_sif16252" style="font-size: 1.5rem;"><i
+                            class="ri-twitter-x-line"></i></a>
+                    <a href="https://www.instagram.com/siffybassey/" style="font-size: 1.5rem;"><i
+                            class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 2rem 0; text-align: center; border-top: 1px solid var(--color-border);">
+        <div class="container">
+            <p>&copy; 2024 Sifon. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
