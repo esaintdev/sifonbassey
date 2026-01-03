@@ -612,3 +612,30 @@ a {
     justify-content: center;
   }
 }
+
+/* ==========================================
+   INTRO ANIMATION
+   ========================================== */
+
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: var(--color-text);
+  /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  animation: clip-reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s both;
+}
+
+@keyframes clip-reveal {
+  0% {
+    clip-path: inset(0 0 0 0);
+  }
+
+  100% {
+    clip-path: inset(0 0 100% 0);
+  }
+}
